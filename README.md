@@ -2,13 +2,16 @@
 
 # Project Setup
 
-Intellij Setup:
-You will have to setup the environment variable for the project.
+Intellij Setup:  
+You need to generate a Credential Json file for your google cloud account. To do that follow the steps provided in the below link.   
+https://cloud.google.com/docs/authentication/production#auth-cloud-implicit-java
+ 
+Setup the environment variable for the project.    
+``Edit Configuration -> configuration -> Environment -> Environment Variable``   
 
-Edit Configuration -> configuration -> Environment -> Environment Variable
-
-`Name : GOOGLE_APPLICATION_CREDENTIALS  
-Value : Json Credentilal file path`
+Add the below environment variable   
+Name : `GOOGLE_APPLICATION_CREDENTIALS`  
+Value : `Json Credentilal file path`
 
 #Credential JSON file format
 ```
