@@ -45,21 +45,7 @@ public class GcpReportApplication {
 
 		System.out.println("====================MachineTypes(\"us-east1-b\")======================");
 
-		for(MachineType machineType:machineTypeClient.listMachineTypes(ProjectZoneName.newBuilder()
-				.setProject("magnartes")
-				.setZone("us-east1-b").build())
-				.iterateAll()){
-			System.out.println(machineType);
-		}
-
-		System.out.println("====================MachineTypes(\"us-east4-a\")======================");
-
-		for(MachineType machineType:machineTypeClient.listMachineTypes(ProjectZoneName.newBuilder()
-				.setProject("magnartes")
-				.setZone("us-east4-a").build())
-				.iterateAll()){
-			System.out.println(machineType);
-		}
+		CloudSQL.getSQLData(myCredentials, myEndpoint);
 	}
 
 
