@@ -13,9 +13,6 @@ import com.google.api.client.util.store.FileDataStoreFactory;
 import com.google.api.services.oauth2.Oauth2;
 import com.google.api.services.oauth2.model.Tokeninfo;
 import com.google.api.services.oauth2.model.Userinfoplus;
-import com.google.api.services.sqladmin.SQLAdmin;
-import com.google.api.services.sqladmin.model.DatabaseInstance;
-import com.google.api.services.sqladmin.model.InstancesListResponse;
 import com.google.auth.Credentials;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -30,7 +27,7 @@ import java.util.List;
  * https://cloud.google.com/sql/docs/mysql/admin-api
  * https://cloud.google.com/sql/docs/mysql/admin-api/rest/v1beta4/instances/list
  */
-public class CloudSQL {
+public class CloudSQLApiExample {
 
   private static final java.io.File DATA_STORE_DIR =
       new java.io.File(System.getProperty("user.home"), ".store/oauth2_sample");
@@ -94,7 +91,7 @@ public class CloudSQL {
   private static Credential authorize() throws Exception {
     // load client secrets
     clientSecrets = GoogleClientSecrets.load(JSON_FACTORY,
-        new InputStreamReader(CloudSQL.class.getResourceAsStream("/client_secrets.json")));
+        new InputStreamReader(CloudSQLApiExample.class.getResourceAsStream("/client_secrets.json")));
     if (clientSecrets.getDetails().getClientId().startsWith("Enter")
         || clientSecrets.getDetails().getClientSecret().startsWith("Enter ")) {
       System.out.println("Enter Client ID and Secret from https://code.google.com/apis/console/ "

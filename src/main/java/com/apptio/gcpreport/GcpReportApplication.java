@@ -5,13 +5,8 @@ import com.google.api.services.compute.ComputeScopes;
 import com.google.auth.Credentials;
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.cloud.compute.v1.AddressSettings;
-import com.google.cloud.compute.v1.MachineType;
 import com.google.cloud.compute.v1.MachineTypeClient;
 import com.google.cloud.compute.v1.MachineTypeSettings;
-import com.google.cloud.compute.v1.ProjectZoneName;
-import com.google.cloud.compute.v1.Region;
-import com.google.cloud.compute.v1.RegionClient;
-import com.google.cloud.compute.v1.RegionSettings;
 import com.google.cloud.compute.v1.Zone;
 import com.google.cloud.compute.v1.ZoneClient;
 import org.springframework.boot.SpringApplication;
@@ -45,7 +40,7 @@ public class GcpReportApplication {
 
 		System.out.println("====================MachineTypes(\"us-east1-b\")======================");
 
-		CloudSQL.getSQLData(myCredentials, myEndpoint);
+		CloudSQLApiExample.getSQLData(myCredentials, myEndpoint);
 	}
 
 

@@ -25,6 +25,7 @@
     <orderEntry type="library" name="Maven: com.google.api:api-common:1.9.0" level="project" />
     <orderEntry type="library" name="Maven: org.threeten:threetenbp:1.4.3" level="project" />
     <orderEntry type="library" name="Maven: com.google.cloud:google-cloud-core-http:1.93.4" level="project" />
+    <orderEntry type="library" name="Maven: com.google.http-client:google-http-client-appengine:1.34.2" level="project" />
     <orderEntry type="library" name="Maven: com.google.apis:google-api-services-compute:v1-rev20200311-1.30.9" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:28.2-android" level="project" />
     <orderEntry type="library" name="Maven: com.google.api:gax:1.56.0" level="project" />
@@ -34,6 +35,7 @@
     <orderEntry type="library" name="Maven: com.google.cloud:google-cloud-core:1.93.4" level="project" />
     <orderEntry type="library" name="Maven: com.google.api:gax-httpjson:0.73.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.auth:google-auth-library-credentials:0.20.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.http-client:google-http-client-jackson2:1.34.2" level="project" />
     <orderEntry type="library" name="Maven: com.google.http-client:google-http-client:1.34.2" level="project" />
     <orderEntry type="library" name="Maven: javax.annotation:javax.annotation-api:1.3.2" level="project" />
     <orderEntry type="library" name="Maven: com.google.cloud:google-cloud-billing:1.1.1" level="project" />
@@ -71,16 +73,9 @@
     <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java-util:3.12.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.10" level="project" />
     <orderEntry type="library" name="Maven: org.conscrypt:conscrypt-openjdk-uber:2.2.1" level="project" />
-    <orderEntry type="library" name="Maven: com.google.cloud:google-cloud-datastore:1.104.0" level="project" />
-    <orderEntry type="library" name="Maven: com.google.api-client:google-api-client:1.30.9" level="project" />
-    <orderEntry type="library" name="Maven: com.google.http-client:google-http-client-appengine:1.35.0" level="project" />
-    <orderEntry type="library" name="Maven: com.google.api.grpc:proto-google-cloud-datastore-v1:0.87.0" level="project" />
-    <orderEntry type="library" name="Maven: com.google.cloud.datastore:datastore-v1-proto-client:1.6.3" level="project" />
-    <orderEntry type="library" name="Maven: com.google.http-client:google-http-client-protobuf:1.35.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.apis:google-api-services-sqladmin:v1beta4-rev76-1.25.0" level="project" />
-    <orderEntry type="library" name="Maven: com.google.oauth-client:google-oauth-client:1.31.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.api-client:google-api-client:1.25.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.apis:google-api-services-oauth2:v2-rev131-1.23.0" level="project" />
-    <orderEntry type="library" name="Maven: com.google.http-client:google-http-client-jackson2:1.23.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.oauth-client:google-oauth-client-jetty:1.23.0" level="project" />
     <orderEntry type="library" name="Maven: org.mortbay.jetty:jetty:6.1.26" level="project" />
     <orderEntry type="library" name="Maven: org.mortbay.jetty:jetty-util:6.1.26" level="project" />
@@ -133,6 +128,10 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:5.2.8.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.7.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.oauth-client:google-oauth-client-java6:1.31.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.oauth-client:google-oauth-client:1.31.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.api-client:google-api-client-java6:1.30.10" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.json-simple:json-simple:1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.2" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.2" level="project" />
   </component>
 </module>
