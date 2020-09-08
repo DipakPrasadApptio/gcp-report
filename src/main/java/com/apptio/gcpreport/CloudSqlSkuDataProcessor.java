@@ -22,7 +22,7 @@ public class CloudSqlSkuDataProcessor {
 //        .version(HttpClient.Version.HTTP_1_1)
 //        .connectTimeout(Duration.ofSeconds(30))
 //        .build();
-    HttpRequest request = HttpRequest.newBuilder(new URI("https://cloudbilling.googleapis.com/v1/services/9662-B51E-5089/skus?key=AIzaSyAe04BOXBRAiAyv7jgoCOvnvu-yoax9g28"))
+    HttpRequest request = HttpRequest.newBuilder(new URI("https://cloudbilling.googleapis.com/v1/services/9662-B51E-5089/skus?key="<API_KEY>"))
           .header("Accept", "application/json").build();
 
 
