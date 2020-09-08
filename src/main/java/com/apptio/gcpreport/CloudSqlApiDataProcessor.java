@@ -27,7 +27,7 @@ import java.util.List;
  * https://cloud.google.com/sql/docs/mysql/admin-api
  * https://cloud.google.com/sql/docs/mysql/admin-api/rest/v1beta4/instances/list
  */
-public class CloudSQLApiExample {
+public class CloudSqlApiDataProcessor {
 
   private static final java.io.File DATA_STORE_DIR =
       new java.io.File(System.getProperty("user.home"), ".store/oauth2_sample");
@@ -91,7 +91,7 @@ public class CloudSQLApiExample {
   private static Credential authorize() throws Exception {
     // load client secrets
     clientSecrets = GoogleClientSecrets.load(JSON_FACTORY,
-        new InputStreamReader(CloudSQLApiExample.class.getResourceAsStream("/client_secrets.json")));
+        new InputStreamReader(CloudSqlApiDataProcessor.class.getResourceAsStream("/client_secrets.json")));
     if (clientSecrets.getDetails().getClientId().startsWith("Enter")
         || clientSecrets.getDetails().getClientSecret().startsWith("Enter ")) {
       System.out.println("Enter Client ID and Secret from https://code.google.com/apis/console/ "

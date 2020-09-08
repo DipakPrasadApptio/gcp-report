@@ -40,7 +40,7 @@ public class GcpReportApplication {
 
 		System.out.println("====================MachineTypes(\"us-east1-b\")======================");
 
-		CloudSQLApiExample.getSQLData(myCredentials, myEndpoint);
+		CloudSqlApiDataProcessor.getSQLData(myCredentials, myEndpoint);
 	}
 
 
